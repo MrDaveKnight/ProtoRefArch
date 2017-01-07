@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_mobile_home_page_module">
+    <sys_ui_mobile_home_page_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>#81878e</background_color>
+        <content_style>light_content</content_style>
+        <icon>dashboard</icon>
+        <image/>
+        <module display_value="Dashboard">6c15ebe3db4cba00eb8278b5ae961958</module>
+        <roles/>
+        <subtitle/>
+        <sys_class_name>sys_ui_mobile_home_page_module</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2017-01-07 19:52:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e347a7a7db4cba00eb8278b5ae9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reference Architecture</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sys_ui_mobile_home_page_module_e347a7a7db4cba00eb8278b5ae9619ad</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2017-01-07 19:52:42</sys_updated_on>
+        <title>Reference Architecture</title>
+    </sys_ui_mobile_home_page_module>
+</record_update>

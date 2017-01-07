@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,ref_arch</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2017-01-07 22:50:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8830d07bdb8cba00eb8278b5ae96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,ref_arch</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sys_ui_view_8830d07bdb8cba00eb8278b5ae96190e</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2017-01-07 22:50:38</sys_updated_on>
+        <title>Sys_popup,ref_arch</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
