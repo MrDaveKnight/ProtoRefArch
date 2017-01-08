@@ -14,7 +14,7 @@
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>dave.knight</sys_created_by>
         <sys_created_on>2017-01-04 15:13:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>abca8be6dbcc3a00eb8278b5ae96190c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Reference Architecture - Container 1</sys_name>

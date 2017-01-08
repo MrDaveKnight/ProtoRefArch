@@ -86,7 +86,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>dave.knight</sys_created_by>
         <sys_created_on>2017-01-07 21:54:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a873c8b3db8cba00eb8278b5ae9619c7</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Development Effort (Hrs)</sys_name>
