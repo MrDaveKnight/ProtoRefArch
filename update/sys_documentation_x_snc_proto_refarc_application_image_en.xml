@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="image" label="Image" language="en" table="x_snc_proto_refarc_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <help/>
+            <hint/>
+            <label>Image</label>
+            <language>en</language>
+            <name>x_snc_proto_refarc_application</name>
+            <plural>Images</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>frank.schuster</sys_created_by>
+            <sys_created_on>2017-01-13 20:07:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3f54eae51390f20022c6bcc32244b03f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Image</sys_name>
+            <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_proto_refarc_application_image_en</sys_update_name>
+            <sys_updated_by>frank.schuster</sys_updated_by>
+            <sys_updated_on>2017-01-13 20:07:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format>png</format>
+        <height>43</height>
+        <image/>
+        <name>icon-lock.png</name>
+        <size_bytes>1972</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-10 00:43:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f83df6d813dc720022c6bcc32244b012</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>icon-lock.png</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>db_image_f83df6d813dc720022c6bcc32244b012</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-10 00:43:54</sys_updated_on>
+        <thumbnail/>
+        <width>43</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1972</size_bytes>
+        <size_compressed>1995</size_compressed>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-10 00:43:54</sys_created_on>
+        <sys_id>2e4db6d813dc720022c6bcc32244b0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-10 00:43:54</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>f83df6d813dc720022c6bcc32244b012</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="2e4db6d813dc720022c6bcc32244b0d9">2e4db6d813dc720022c6bcc32244b0d9</sys_attachment>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-10 00:43:54</sys_created_on>
+        <sys_id>6e4db6d813dc720022c6bcc32244b0d9</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2648</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="2e4db6d813dc720022c6bcc32244b0d9">2e4db6d813dc720022c6bcc32244b0d9</sys_attachment>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-10 00:43:54</sys_created_on>
+        <sys_id>ee4db6d813dc720022c6bcc32244b0d9</sys_id>
+    </sys_attachment_doc>
+</record_update>
