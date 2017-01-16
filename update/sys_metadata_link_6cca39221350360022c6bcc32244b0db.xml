@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f10dcdbedbcc3a00adec7bfdae961944</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="time_card">
+    <time_card action="INSERT_OR_UPDATE">
+        <category>task_work</category>
+        <friday>10</friday>
+        <labor_task/>
+        <monday>8</monday>
+        <saturday>16</saturday>
+        <state>Pending</state>
+        <sunday>0</sunday>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2017-01-05 00:47:57</sys_created_on>
+        <sys_id>f10dcdbedbcc3a00adec7bfdae961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2017-01-05 00:47:57</sys_updated_on>
+        <task display_value="INC0000000">db0df476dbcc3a00adec7bfdae9619bc</task>
+        <thursday>8</thursday>
+        <total>58</total>
+        <tuesday>8</tuesday>
+        <user display_value="Dave Knight">1baaeafddbb26200adec7bfdae961952</user>
+        <wednesday>8</wednesday>
+        <week_starts_on>2017-01-01</week_starts_on>
+    </time_card>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 19:39:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6cca39221350360022c6bcc32244b0db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2017-01-04 16:47:57</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sys_metadata_link_6cca39221350360022c6bcc32244b0db</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 19:39:32</sys_updated_on>
+        <tablename>time_card</tablename>
+    </sys_metadata_link>
+</record_update>
