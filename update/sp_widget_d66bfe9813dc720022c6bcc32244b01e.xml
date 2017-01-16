@@ -226,7 +226,7 @@
         <internal>false</internal>
         <link/>
         <name>Reference Architecture - Dashboard</name>
-        <option_schema>[{"name":"app_chunk_size","label":"App Chunk Size","type":"integer"},{"name":"service_chunk_size","label":"Service Chunk Size","type":"integer"},{"displayValue":"Experience","name":"experience","label":"Experience","type":"reference","value":"x_snc_proto_refarc_experience","ed":{"reference":"x_snc_proto_refarc_experience"}}]</option_schema>
+        <option_schema>[{"displayValue":"Experience","name":"experience","label":"Experience","type":"reference","value":"x_snc_proto_refarc_experience","ed":{"reference":"x_snc_proto_refarc_experience"}},{"name":"app_chunk_size","label":"App Chunk Size","type":"integer"},{"name":"service_chunk_size","label":"Service Chunk Size","type":"integer"}]</option_schema>
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
@@ -290,8 +290,6 @@
 		grService.addQuery("experience", experienceId);
 		grService.query();
 		return grService.getRowCount();
-
-
 	}
 
 	function getServiceDetails(experienceId) {
@@ -314,8 +312,6 @@
 			}
 
 		}
-
-
 		return services;
 	}
 	
@@ -340,7 +336,7 @@
         <sys_created_on>2017-01-10 00:35:41</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d66bfe9813dc720022c6bcc32244b01e</sys_id>
-        <sys_mod_count>201</sys_mod_count>
+        <sys_mod_count>204</sys_mod_count>
         <sys_name>Reference Architecture - Dashboard</sys_name>
         <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
         <sys_policy/>
@@ -348,7 +344,7 @@
         <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
         <sys_update_name>sp_widget_d66bfe9813dc720022c6bcc32244b01e</sys_update_name>
         <sys_updated_by>frank.schuster</sys_updated_by>
-        <sys_updated_on>2017-01-16 20:17:54</sys_updated_on>
+        <sys_updated_on>2017-01-16 21:56:12</sys_updated_on>
         <template><![CDATA[<style>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
 </style>

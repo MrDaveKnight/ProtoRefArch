@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-13 20:44:22</sys_created_on>
-            <sys_id>3cdc22a91390f20022c6bcc32244b05f</sys_id>
+            <sys_created_on>2017-01-16 21:33:29</sys_created_on>
+            <sys_id>add45ee61350360022c6bcc32244b009</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
             <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,85 +19,85 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-13 20:44:22</sys_created_on>
-            <sys_id>bcdc22a91390f20022c6bcc32244b05f</sys_id>
+            <sys_created_on>2017-01-16 21:33:29</sys_created_on>
+            <sys_id>21d45ee61350360022c6bcc32244b00a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
             <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>used</element>
-            <position>2</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-13 20:44:22</sys_created_on>
-            <sys_id>30dc22a91390f20022c6bcc32244b060</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-13 20:44:22</sys_created_on>
-            <sys_id>b0dc22a91390f20022c6bcc32244b060</sys_id>
+            <sys_created_on>2017-01-16 21:33:29</sys_created_on>
+            <sys_id>a1d45ee61350360022c6bcc32244b00a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
             <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>image</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-13 20:44:22</sys_created_on>
-            <sys_id>34dc22a91390f20022c6bcc32244b060</sys_id>
+            <sys_created_on>2017-01-16 21:33:29</sys_created_on>
+            <sys_id>25d45ee61350360022c6bcc32244b00a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
             <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>link</element>
-            <position>5</position>
+            <element>used</element>
+            <position>4</position>
             <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-13 20:44:22</sys_created_on>
-            <sys_id>b4dc22a91390f20022c6bcc32244b060</sys_id>
+            <sys_created_on>2017-01-16 21:33:29</sys_created_on>
+            <sys_id>a5d45ee61350360022c6bcc32244b00a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
             <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-13 20:44:22</sys_created_on>
-            <sys_id>38dc22a91390f20022c6bcc32244b060</sys_id>
+            <sys_created_on>2017-01-16 21:33:29</sys_created_on>
+            <sys_id>29d45ee61350360022c6bcc32244b00a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
             <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link</element>
+            <position>6</position>
+            <sys_created_by>frank.schuster</sys_created_by>
+            <sys_created_on>2017-01-16 21:33:29</sys_created_on>
+            <sys_id>a9d45ee61350360022c6bcc32244b00a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_application" sys_domain="global" view="Default view">5e1d076adbcc3a00eb8278b5ae961900</sys_ui_section>
+            <sys_updated_by>frank.schuster</sys_updated_by>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
@@ -111,7 +111,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5e1d076adbcc3a00eb8278b5ae961900</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_name>x_snc_proto_refarc_application</sys_name>
             <sys_overrides/>
             <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
@@ -120,7 +120,7 @@
             <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
             <sys_update_name>sys_ui_section_5e1d076adbcc3a00eb8278b5ae961900</sys_update_name>
             <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-13 20:44:22</sys_updated_on>
+            <sys_updated_on>2017-01-16 21:33:29</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

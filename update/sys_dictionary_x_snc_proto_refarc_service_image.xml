@@ -3,7 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="image" table="x_snc_proto_refarc_service">
         <active>true</active>
         <array>false</array>
-        <attributes>pdf_cell_type=image</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -25,15 +25,15 @@
         <element>image</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">user_image</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_snc_proto_refarc_service</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="db_image">db_image</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -45,9 +45,9 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>frank.schuster</sys_created_by>
-        <sys_created_on>2017-01-13 20:25:13</sys_created_on>
+        <sys_created_on>2017-01-16 21:44:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>dc786e291390f20022c6bcc32244b0a8</sys_id>
+        <sys_id>9067da2a1350360022c6bcc32244b0bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Image</sys_name>
         <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_proto_refarc_service_image</sys_update_name>
         <sys_updated_by>frank.schuster</sys_updated_by>
-        <sys_updated_on>2017-01-13 20:25:13</sys_updated_on>
+        <sys_updated_on>2017-01-16 21:44:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

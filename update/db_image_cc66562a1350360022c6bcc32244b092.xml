@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format>png</format>
+        <height>82</height>
+        <image/>
+        <name>project-portfolio-management.png</name>
+        <size_bytes>1002</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 21:40:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cc66562a1350360022c6bcc32244b092</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>project-portfolio-management.png</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>db_image_cc66562a1350360022c6bcc32244b092</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 21:40:21</sys_updated_on>
+        <thumbnail/>
+        <width>82</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1002</size_bytes>
+        <size_compressed>975</size_compressed>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 21:40:21</sys_created_on>
+        <sys_id>9666562a1350360022c6bcc32244b064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 21:40:21</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>cc66562a1350360022c6bcc32244b092</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="9666562a1350360022c6bcc32244b064">9666562a1350360022c6bcc32244b064</sys_attachment>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 21:40:21</sys_created_on>
+        <sys_id>d666562a1350360022c6bcc32244b064</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSYMzBBiSP6zTPBlIsxU6eIRxAUMOR0gHkJ1WFRJQEJZYrFBTlp2XmpCqUVBakKjgGBBgyMFTMCT2xkbfBgIfh4L3gipZyGRkjPidGV6eGTfWOjLzh8968zVm8vqo/+7W7cGho6PlJ2esyGdPi2PIkODXidf/4uPDya8uxKfB7bBM5WRXwoZiBgdnY08UxpGLO2zsHu4XTJY5/vG9t7JmeZKAj7ZEmfPiT3fovSjec/zdcctrrUSi4sakigP9rCr+cTsXXK/e07k37tm1phZjYri8Bgvz3tLhbc1TbXcu53006e07P8+zjhcuiVFdz8xtbv/zcuPMMy7O5+ffOpDy8y+CluXTKLB7f7LfXXb6wM/glb752r/zcXI/XTJcLttzM+fdmjrfqgwzlRfuK+6R7j12dsi64xfydw9IgS8m2h5Jp/3gdGA4s2SiZbJf0bKsBT/6vffbqdUczlRdVPpexfm7n8fvOtVvrP2RNexZ3TXzS15/fU9+4R7/tbxNZpNiaceJ7OsOPx3xs+e84Dn/wWBv2e8fllz1lqbWHz//6sz6aZUOMhkidDA9bPWOFkVVCXHWgg8t1xhjjYyFu1rffllUdPtP58uXLu0U7/+Quv7yT98HL/eyPLPQEL+qfs1RbdPVNW8UDSYbnHRlXLY9fuxW/WCOL4f8dZV8RV3uJZLvkZ60qnn1p1teYexnvvCzbLW/0uel55fwzZ87UsC9oq9pb9+upT8whOfPgr2LzO6Z1dDy2mPf51NNPNx8WdKxdu1aaYV667S6Zyn1799belWjW6NrHIrhW8OLiNe5Tk3kaeONq9xpU74noPd5Qpyi+GOhND0WpoA6Ij8lj7tmaVN7kseZL7ftUGyvlVp9PPT6lgTPOQRVMel6dIvW/frH/2y1PK93kViy9BVQD1u0x7/3EX1fmuVTOA1MoJntcyNo6rfto0ua7eeIMPJvkAs6JzCmOTft3WZqvvftMzY6rWbEnq0Iqk9fu5Xjw4dy5c7b7r7/2ne619Dx366HlU72evnv27FnUNeYzzTdv3nw877nul6q9+69fv77/+8xKS46mPAGW+B/76uuysl7dPHbs2PsL8lySyz1cptuc/905k1/V85PvJJXPi5vj1obtzll716XLnnn287VRa9V63R4f0nhQ/y+u9/GOKK2p65gstm7aVPRm7vuz/wP2xtXfef9dXs2zKLu8/DtjQ9215CBg0r1St4chbrv1JfXVLJ7AzMrg6ernss4poQkAVSOdMuoDAAA=</data>
+        <length>1288</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="9666562a1350360022c6bcc32244b064">9666562a1350360022c6bcc32244b064</sys_attachment>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 21:40:21</sys_created_on>
+        <sys_id>5a66562a1350360022c6bcc32244b064</sys_id>
+    </sys_attachment_doc>
+</record_update>

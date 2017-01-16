@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_metadata_link">
-    <sys_metadata_link action="INSERT_OR_UPDATE">
-        <directory>update</directory>
-        <documentkey>f33da804db94fa00eb8278b5ae961947</documentkey>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="x_snc_proto_refarc_application">
-    <x_snc_proto_refarc_application action="INSERT_OR_UPDATE">
-        <image display_value="security-mgmt.png">6626d22a1350360022c6bcc32244b027</image>
-        <link/>
-        <name>GRC</name>
-        <sys_created_by>dave.knight</sys_created_by>
-        <sys_created_on>2017-01-08 19:36:12</sys_created_on>
-        <sys_id>f33da804db94fa00eb8278b5ae961947</sys_id>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format>png</format>
+        <height>82</height>
+        <image/>
+        <name>security-mgmt.png</name>
+        <size_bytes>3694</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 21:39:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6626d22a1350360022c6bcc32244b027</sys_id>
         <sys_mod_count>1</sys_mod_count>
+        <sys_name>security-mgmt.png</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>db_image_6626d22a1350360022c6bcc32244b027</sys_update_name>
         <sys_updated_by>frank.schuster</sys_updated_by>
-        <sys_updated_on>2017-01-16 21:47:44</sys_updated_on>
-        <used>true</used>
-    </x_snc_proto_refarc_application>
+        <sys_updated_on>2017-01-16 21:39:26</sys_updated_on>
+        <thumbnail/>
+        <width>82</width>
+    </db_image>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
         <compressed>true</compressed>
@@ -27,57 +35,39 @@
         <size_bytes>3694</size_bytes>
         <size_compressed>3442</size_compressed>
         <sys_created_by>frank.schuster</sys_created_by>
-        <sys_created_on>2017-01-13 20:09:17</sys_created_on>
-        <sys_id>87c42ee51390f20022c6bcc32244b0c6</sys_id>
+        <sys_created_on>2017-01-16 21:39:26</sys_created_on>
+        <sys_id>a436162a1350360022c6bcc32244b09b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>frank.schuster</sys_updated_by>
-        <sys_updated_on>2017-01-13 20:09:17</sys_updated_on>
-        <table_name>ZZ_YYx_snc_proto_refarc_application</table_name>
-        <table_sys_id>f33da804db94fa00eb8278b5ae961947</table_sys_id>
+        <sys_updated_on>2017-01-16 21:39:26</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>6626d22a1350360022c6bcc32244b027</table_sys_id>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>
         <length>16</length>
         <position>0</position>
-        <sys_attachment display_value="image" sys_id="87c42ee51390f20022c6bcc32244b0c6">87c42ee51390f20022c6bcc32244b0c6</sys_attachment>
+        <sys_attachment display_value="image" sys_id="a436162a1350360022c6bcc32244b09b">a436162a1350360022c6bcc32244b09b</sys_attachment>
         <sys_created_by>frank.schuster</sys_created_by>
-        <sys_created_on>2017-01-13 20:09:17</sys_created_on>
-        <sys_id>c7c42ee51390f20022c6bcc32244b0c6</sys_id>
+        <sys_created_on>2017-01-16 21:39:26</sys_created_on>
+        <sys_id>e436162a1350360022c6bcc32244b09b</sys_id>
     </sys_attachment_doc>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>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</data>
         <length>3736</length>
         <position>1</position>
-        <sys_attachment display_value="image" sys_id="87c42ee51390f20022c6bcc32244b0c6">87c42ee51390f20022c6bcc32244b0c6</sys_attachment>
+        <sys_attachment display_value="image" sys_id="a436162a1350360022c6bcc32244b09b">a436162a1350360022c6bcc32244b09b</sys_attachment>
         <sys_created_by>frank.schuster</sys_created_by>
-        <sys_created_on>2017-01-13 20:09:17</sys_created_on>
-        <sys_id>4bc42ee51390f20022c6bcc32244b0c6</sys_id>
+        <sys_created_on>2017-01-16 21:39:26</sys_created_on>
+        <sys_id>6836162a1350360022c6bcc32244b09b</sys_id>
     </sys_attachment_doc>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>zQ5/2zZxMF3KZe1ITa+KuJwfuuwy+YOLbeZr4eJmabGMKNXVtWi51hRBAaQFvUHRzaHsQlXufteP5kdJ7tHCmuv1LqzmcRYNhBCebbn3mXnmTE2jQ0uKUeiBsBJcut2yl9dUmR4xk+jnJbz1PXEbzgl7kU9vAzUksNXCUv+U5J5a1KuubvxwnoTVwOgqQ/oW2rx6G4qoleQrmZNwQ70eY/W0d0rfPxv2raJ2eL+hAR/KaLxzIdyqb0aouXFFHbJjLqPkRTtOR/cJZMjzdHCQZ3IrRFxbeIkeBaIzq4k+I+9UZRQ9/CZgFZ2dB8k8tTuz1z3vpLoIkY5WD71rM7MUSD8TMDvC7clbZ1Q+tMNINTGU9VculH6vmR5U3Fk5nrgNPKDAupfK9wDmtlSaduvss6AlGX4pPy/5dpYNp3RfIiBgJ+mseq4IHjivpFZCtq+X7xLECuucTjAXeNWXtkN5DaA/xFSSiivKQiq0gl+EsEvu+qmztCxhu0+dUuEOGRvbHjbV9hATajhzQ3z6CIv+mTY9xRuvSHggEal8Kckk8lK6mO9jwMEZkY0yCfrNwaSkJON+nm9aQ+/qqu7cuUPSjbdlCzbmox0beOsWDZdaCzyBz/kCLDRD0I+Drz7IfFufmWcmT1jUgLWPxpzXwGBOjn9XiA+aC1RnIZY05nAwscBGYJiaM0y/zBFZN/bpoH7KSYSa/V2/4Z6Z7sYGAPuTrGRL4LpZdBLP6x8C9Fsu0nGw0CZsrcJSgU+oRc/z+I2lCdXojR/FX18ku+re+mqkdWKpFvO5DfmnxDHAeyGxojpHdtLWHyDmgAO63PJYwn8AB0xCn24OAAA=</data>
         <length>844</length>
         <position>2</position>
-        <sys_attachment display_value="image" sys_id="87c42ee51390f20022c6bcc32244b0c6">87c42ee51390f20022c6bcc32244b0c6</sys_attachment>
+        <sys_attachment display_value="image" sys_id="a436162a1350360022c6bcc32244b09b">a436162a1350360022c6bcc32244b09b</sys_attachment>
         <sys_created_by>frank.schuster</sys_created_by>
-        <sys_created_on>2017-01-13 20:09:17</sys_created_on>
-        <sys_id>cbc42ee51390f20022c6bcc32244b0c6</sys_id>
+        <sys_created_on>2017-01-16 21:39:26</sys_created_on>
+        <sys_id>e836162a1350360022c6bcc32244b09b</sys_id>
     </sys_attachment_doc>
-</record_update>
-]]></payload>
-        <sys_class_name>sys_metadata_link</sys_class_name>
-        <sys_created_by>frank.schuster</sys_created_by>
-        <sys_created_on>2017-01-16 21:03:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>680e0e661350360022c6bcc32244b0bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>GRC</sys_name>
-        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
-        <sys_update_name>sys_metadata_link_680e0e661350360022c6bcc32244b0bd</sys_update_name>
-        <sys_updated_by>frank.schuster</sys_updated_by>
-        <sys_updated_on>2017-01-16 22:02:38</sys_updated_on>
-        <tablename>x_snc_proto_refarc_application</tablename>
-    </sys_metadata_link>
 </record_update>
