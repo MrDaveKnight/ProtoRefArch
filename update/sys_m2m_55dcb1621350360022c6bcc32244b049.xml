@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_snc_proto_refarc_experience</from_table>
+        <m2m_from_field>experience</m2m_from_field>
+        <m2m_from_label>Applications</m2m_from_label>
+        <m2m_table>x_snc_proto_refarc_m2m_applications_experiences</m2m_table>
+        <m2m_to_field>application</m2m_to_field>
+        <m2m_to_label>Experiences</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 19:49:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>55dcb1621350360022c6bcc32244b049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_proto_refarc_m2m_applications_experiences</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sys_m2m_55dcb1621350360022c6bcc32244b049</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 19:49:23</sys_updated_on>
+        <to_table>x_snc_proto_refarc_application</to_table>
+    </sys_m2m>
+</record_update>

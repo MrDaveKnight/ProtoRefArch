@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format>png</format>
+        <height>43</height>
+        <image/>
+        <name>rationalize-apps.png</name>
+        <size_bytes>912</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 20:42:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>12298a261350360022c6bcc32244b0e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>rationalize-apps.png</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>db_image_12298a261350360022c6bcc32244b0e8</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 20:42:41</sys_updated_on>
+        <thumbnail/>
+        <width>43</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>912</size_bytes>
+        <size_compressed>935</size_compressed>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 20:42:41</sys_created_on>
+        <sys_id>d939ca261350360022c6bcc32244b07a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 20:42:41</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>12298a261350360022c6bcc32244b0e8</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="d939ca261350360022c6bcc32244b07a">d939ca261350360022c6bcc32244b07a</sys_attachment>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 20:42:41</sys_created_on>
+        <sys_id>1d39ca261350360022c6bcc32244b07a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AZADb/yJUE5HDQoaCgAAAA1JSERSAAAAKwAAACsIBgAAAOFdccAAAANXSURBVHjazdltaE1xHMDxc7dxWZc8tBcStdyRPOQp8rgU2Y2WeTEKbR66ampje2GzUp5mVstTyRgvuNOy5YVY4YWYUhRNCCvmYaURGRbDfr6n/uqfduz+d899ePF58Tt163vPueffuf9jrQ2WRSIFc7AVx3EJN3EP19GIKmxABqxIaIORuajBJ4iBV6jE5FjEBvAAonmGWmzDaizFLCxBLsrRgA6I0oPLmB2t2BqI8ga74Df4vEe7Il+16FMY4XbsfLQjiIGwIpCGg/gBQTsyXYtVvLBcNAF3IOjGeoPYuBiAQ9rPYotpbBnGxzh6G3qUteHGboLgLbwxDi6FoAvT+or1a3dqPqw4OA3BUwxyivXgJgRnYcVJKh5BsNcpNgeCDgyHFUcL0IPvGNNb7H0ICtTsaH19azgiDa6H4PC/sYsgeI/B/Yj1IR/F8Lj0RaaiB1/h02NPQFABK8xYD7IQQhdEydKimiHQNRuc9VsQ5P2N9WgPGVMMYgshvQhpsdIbg9ggBJf/xk6GoA2WQWyeQ8g3DHEpdiwEX5BsH9gMwXmzWIIIc4jJcyNWeQnBRHuoUkOZSaxS5xBT7GLsFQhW2sMFNazpR2wWROlCSB3z/OcGu20YexSCIntoUkPANFZFlSAfPkRjDd4HQbk9NKsh0yDWmfuxOyHYr5/ZFWaxzuuoW+uscgCCUns4p4aN5rHON5CLN1gtBEF72KWGigSNvQXBEnvIVUNTAsYm4SMEo+0Do9TQiQEJFjsDghf6g8xjCJaZxTqvoy6ts7shOKnH7oGgLoGWriS8gCBLj03Hb/zQnszjbZW2P0a4ilUaIahJgNBk7Z9LcW9/aybhJ35hZpxjC7TtgMF6rK4agodIjVOoH5/1hyunWB9aITgDT4xDU7XLfzGcHZnp+AbBgRiGDsQ1CFoxos9YJRu/IKiMwRn24aq2b+E33UVch24IGjAsSqEZ2m76O8zo75ZnQPuxv8RyFyNTUIhOCJ7DH+n+7DjcgyhNmBNBZBLWoAWi1GOoWzvfKdiOLxClBSWYFObn56ESryFKG7Kj9bZmJPbiA0TzHjdwBtUq6gjO4a7+JZVWBOGNxXswL3IQQjskDE9wDAvhce89mLl0BLAZJdiBIuRjMdJgReoPDRQQswxEh4QAAAAASUVORK5CYIKYkmeNkAMAAA==</data>
+        <length>1236</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="d939ca261350360022c6bcc32244b07a">d939ca261350360022c6bcc32244b07a</sys_attachment>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 20:42:41</sys_created_on>
+        <sys_id>9d39ca261350360022c6bcc32244b07a</sys_id>
+    </sys_attachment_doc>
+</record_update>

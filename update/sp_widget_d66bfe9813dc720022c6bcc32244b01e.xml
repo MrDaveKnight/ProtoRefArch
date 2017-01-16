@@ -226,7 +226,7 @@
         <internal>false</internal>
         <link/>
         <name>Reference Architecture - Dashboard</name>
-        <option_schema>[{"name":"experience_name","label":"Experience Name","type":"string"},{"name":"experience_short_handle","label":"Experience Short Handle","type":"string"},{"name":"app_chunk_size","label":"App Chunk Size","type":"integer"},{"name":"service_chunk_size","label":"Service Chunk Size","type":"integer"},{"displayValue":"Task","name":"time_card_task_record","label":"Time Card Task Record","type":"reference","value":"task","ed":{"reference":"task"}},{"displayValue":"Images","name":"banner_image","label":"Banner Image","type":"reference","value":"db_image","ed":{"reference":"db_image"}}]</option_schema>
+        <option_schema>[{"name":"app_chunk_size","label":"App Chunk Size","type":"integer"},{"name":"service_chunk_size","label":"Service Chunk Size","type":"integer"},{"displayValue":"Experience","name":"experience","label":"Experience","type":"reference","value":"x_snc_proto_refarc_experience","ed":{"reference":"x_snc_proto_refarc_experience"}}]</option_schema>
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
@@ -234,73 +234,97 @@
 	/* e.g., data.table = $sp.getValue('table'); */
 
 	if(!input) {
-		data.banner_img = getBannerImage();
-		data.applicationCount = getApplicationCount();
-		data.serviceCount = getServiceCount();
-		data.devEffort = getDevHours();
-		data.appList = getAppDetails();
-		data.serviceList = getServiceDetails();
+
+		getExperienceData();
+		data.applicationCount = getApplicationCount(options.experience);
+		data.serviceCount = getServiceCount(options.experience);
+		data.appList = getAppDetails(options.experience);
+		data.serviceList = getServiceDetails(options.experience);
 	}
-	
-	function getBannerImage() {
-		var grImage = new GlideRecord("db_image");
-		if(grImage.get(options.banner_image)) {
-			return grImage.getDisplayValue();
-		} else {
-			return "fallback-icon.png";
+
+	function getExperienceData() {
+		var grExp = new GlideRecord("x_snc_proto_refarc_experience");
+		if(grExp.get(options.experience)) {
+			data.banner_img = grExp.getDisplayValue("banner_image") || "fallback-icon.png";
+			data.experience_name = grExp.getDisplayValue("experience_name");
+			data.experience_short_handle = grExp.getDisplayValue("experience_short_handle");
+			data.devEffort = getDevHours(options.experience);
 		}
 	}
 
-	function getApplicationCount() {
-		var grApp = new GlideRecord("x_snc_proto_refarc_application");
+
+	function getApplicationCount(experienceId) {
+		var grApp = new GlideRecord("x_snc_proto_refarc_m2m_applications_experiences");
+		grApp.addQuery("experience", experienceId);
 		grApp.query();
 		return grApp.getRowCount();
 	}
 
-	function getAppDetails() {
+
+	function getAppDetails(experienceId) {
 		var apps = [];
-		
-		var grApp = new GlideRecord("x_snc_proto_refarc_application");
-		grApp.orderBy("name");
-		grApp.query();
-		while(grApp.next()) {
-			apps.push({
-				"name":grApp.getDisplayValue(),
-				"image": grApp.getDisplayValue("image"),
-				"link": grApp.getDisplayValue("link")
-			});
+
+
+		var grAppForExp = new GlideRecord("x_snc_proto_refarc_m2m_applications_experiences");
+		grAppForExp.addQuery("experience", experienceId);
+		grAppForExp.query();
+		while(grAppForExp.next()) {
+			var grApp = new GlideRecord("x_snc_proto_refarc_application");
+			grApp.query("sys_id", grAppForExp.getValue("application"));
+			grApp.query();
+			if(grApp.next()) {
+				apps.push({
+					"name":grApp.getDisplayValue(),
+					"image": grApp.getDisplayValue("image"),
+					"link": grApp.getDisplayValue("link")
+				});
+			}
 		}
+
 		return apps;
 	}
 
 
-	function getServiceCount() {
-		var grService = new GlideRecord("x_snc_proto_refarc_service");
+	function getServiceCount(experienceId) {
+		var grService = new GlideRecord("x_snc_proto_refarc_m2m_services_experiences");
+		grService.addQuery("experience", experienceId);
 		grService.query();
 		return grService.getRowCount();
+
+
 	}
 
-	function getServiceDetails() {
+	function getServiceDetails(experienceId) {
 		var services = [];
-		
-		var grService = new GlideRecord("x_snc_proto_refarc_service");
-		grService.orderBy("name");
-		grService.query();
-		while(grService.next()) {
-			services.push({
-				"name":grService.getDisplayValue(),
-				"image": grService.getDisplayValue("image"),
-				"link": grService.getDisplayValue("link")
-			});
+
+		var grServiceForExp = new GlideRecord("x_snc_proto_refarc_m2m_services_experiences");
+		grServiceForExp.addQuery("experience", experienceId);
+		grServiceForExp.query();
+		while(grServiceForExp.next()) {
+			var grService = new GlideRecord("x_snc_proto_refarc_service");
+			grService.query("sys_id", grServiceForExp.getValue("service"));
+			grService.orderBy("name");
+			grService.query();
+			while(grService.next()) {
+				services.push({
+					"name":grService.getDisplayValue(),
+					"image": grService.getDisplayValue("image"),
+					"link": grService.getDisplayValue("link")
+				});
+			}
+
 		}
+
+
 		return services;
 	}
+	
 
-	function getDevHours() {
+	function getDevHours(experienceId) {
 		var totalHours = 0.0;
-
+		
 		var grHours = new GlideRecord("time_card");
-		grHours.addQuery("task", options.time_card_task_record);
+		grHours.addQuery("x_snc_proto_refarc_experience", experienceId);
 		grHours.query();
 		while(grHours.next()) {			
 			totalHours = totalHours + parseFloat(grHours.getValue("total"));
@@ -316,7 +340,7 @@
         <sys_created_on>2017-01-10 00:35:41</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d66bfe9813dc720022c6bcc32244b01e</sys_id>
-        <sys_mod_count>180</sys_mod_count>
+        <sys_mod_count>201</sys_mod_count>
         <sys_name>Reference Architecture - Dashboard</sys_name>
         <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
         <sys_policy/>
@@ -324,7 +348,7 @@
         <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
         <sys_update_name>sp_widget_d66bfe9813dc720022c6bcc32244b01e</sys_update_name>
         <sys_updated_by>frank.schuster</sys_updated_by>
-        <sys_updated_on>2017-01-16 19:31:31</sys_updated_on>
+        <sys_updated_on>2017-01-16 20:17:54</sys_updated_on>
         <template><![CDATA[<style>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
 </style>
@@ -333,7 +357,7 @@
   <div class="bg">
     <div class="resolve" ng-click="c.showOverviewDiv()">
       <img class="icon-lock" src="{{c.data.banner_img}}">
-      {{c.options.experience_name}}
+      {{c.data.experience_name}}
     </div>
   </div>
   
@@ -341,7 +365,7 @@
   <div class="rectangles" ng-show="c.showOverview">
     <div>
       <ol class="breadcrumb">
-        <li><a href="javascript:void(0)" class="appname-breadcrumb">{{c.options.experience_short_handle}} Home</a></li>
+        <li><a href="javascript:void(0)" class="appname-breadcrumb">{{c.data.experience_short_handle}} Home</a></li>
       </ol>
     </div>
     <div class="rectangle" ng-click="c.showApplicationList()">
@@ -376,7 +400,7 @@
   <div class="applist" ng-show="c.showAppList">
     <div>
       <ol class="breadcrumb">
-        <li><a href="javascript:void(0)" class="appname-breadcrumb" ng-click="c.hideApplicationList()">{{c.options.experience_short_handle}}</a></li>
+        <li><a href="javascript:void(0)" class="appname-breadcrumb" ng-click="c.hideApplicationList()">{{c.data.experience_short_handle}}</a></li>
         <li class="applications-breadcrumb">Applications</li>
       </ol>
     </div>
@@ -403,7 +427,7 @@
   <div class="applist" ng-show="c.showServices">
     <div>
       <ol class="breadcrumb">
-        <li><a href="javascript:void(0)" class="appname-breadcrumb" ng-click="c.hideServiceList()">{{c.options.experience_short_handle}}</a></li>
+        <li><a href="javascript:void(0)" class="appname-breadcrumb" ng-click="c.hideServiceList()">{{c.data.experience_short_handle}}</a></li>
         <li class="applications-breadcrumb">Services</li>
       </ol>
     </div>

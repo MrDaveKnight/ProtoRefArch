@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Proto Refarc M2m Services Experiences" max_length="40" name="x_snc_proto_refarc_m2m_services_experiences" type="collection">
+        <element label="Experience" max_length="32" name="experience" reference="x_snc_proto_refarc_experience" type="reference"/>
+        <element label="Service" max_length="32" name="service" reference="x_snc_proto_refarc_service" type="reference"/>
+        <index name="index">
+            <element name="service"/>
+        </index>
+        <index name="index2">
+            <element name="experience"/>
+        </index>
+    </element>
+</database>
