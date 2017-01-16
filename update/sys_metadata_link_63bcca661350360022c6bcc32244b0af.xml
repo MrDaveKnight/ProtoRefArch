@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e9bd79621350360022c6bcc32244b0b6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_proto_refarc_m2m_services_experiences">
+    <x_snc_proto_refarc_m2m_services_experiences action="INSERT_OR_UPDATE">
+        <experience display_value="Remediate Security">1a4d75621350360022c6bcc32244b0f4</experience>
+        <service display_value="SSO">fc7dc76adbcc3a00eb8278b5ae961923</service>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 19:52:27</sys_created_on>
+        <sys_id>e9bd79621350360022c6bcc32244b0b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 19:52:27</sys_updated_on>
+    </x_snc_proto_refarc_m2m_services_experiences>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 20:58:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>63bcca661350360022c6bcc32244b0af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sys_metadata_link_63bcca661350360022c6bcc32244b0af</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 20:58:07</sys_updated_on>
+        <tablename>x_snc_proto_refarc_m2m_services_experien</tablename>
+    </sys_metadata_link>
+</record_update>
