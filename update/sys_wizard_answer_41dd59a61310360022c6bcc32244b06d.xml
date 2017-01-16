@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Reference Architecture Instance</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Reference Architecture Instance</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">ee80c24813a3220050ca56df3244b089</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 17:33:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41dd59a61310360022c6bcc32244b06d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reference Architecture Instance</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sys_wizard_answer_41dd59a61310360022c6bcc32244b06d</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 17:33:09</sys_updated_on>
+        <table/>
+        <target_url>x_snc_proto_refarc_reference_architecture_instance.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

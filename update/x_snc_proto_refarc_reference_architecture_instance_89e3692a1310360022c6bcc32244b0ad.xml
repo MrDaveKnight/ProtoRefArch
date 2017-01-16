@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_proto_refarc_reference_architecture_instance">
+    <x_snc_proto_refarc_reference_architecture_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_chunk_size/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <experience_banner_image/>
+        <experience_name/>
+        <experience_short_handle/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <services_chunk_size/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e963a52a1310360022c6bcc32244b018</sp_column>
+        <sp_widget display_value="Ref Arch with Instance">6163a52a1310360022c6bcc32244b017</sp_widget>
+        <sys_class_name>x_snc_proto_refarc_reference_architecture_instance</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 17:59:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>89e3692a1310360022c6bcc32244b0ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>x_snc_proto_refarc_reference_architecture_instance_89e3692a1310360022c6bcc32244b0ad</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 17:59:38</sys_updated_on>
+        <time_card_record/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </x_snc_proto_refarc_reference_architecture_instance>
+</record_update>

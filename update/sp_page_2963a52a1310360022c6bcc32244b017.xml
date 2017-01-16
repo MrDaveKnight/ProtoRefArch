@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <css/>
+        <id>ref_arch_with_instance</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>frank.schuster</sys_created_by>
+        <sys_created_on>2017-01-16 17:57:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2963a52a1310360022c6bcc32244b017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ref_arch_with_instance</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sp_page_2963a52a1310360022c6bcc32244b017</sys_update_name>
+        <sys_updated_by>frank.schuster</sys_updated_by>
+        <sys_updated_on>2017-01-16 17:57:29</sys_updated_on>
+        <title>Ref Arch with Instance - Test Page</title>
+    </sp_page>
+</record_update>

@@ -10,40 +10,52 @@
         <order>1</order>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">c0325feadbcc3a00eb8278b5ae96192f</sp_column>
+        <sp_column display_value="1">9ec2652a1310360022c6bcc32244b0a5</sp_column>
         <sp_widget display_value="Reference Architecture - Dashboard">d66bfe9813dc720022c6bcc32244b01e</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>frank.schuster</sys_created_by>
-        <sys_created_on>2017-01-10 00:41:45</sys_created_on>
+        <sys_created_on>2017-01-16 17:54:55</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>8fccf2d813dc720022c6bcc32244b02c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>3bc2652a1310360022c6bcc32244b031</sys_id>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
-        <sys_update_name>sp_instance_8fccf2d813dc720022c6bcc32244b02c</sys_update_name>
+        <sys_update_name>sp_instance_3bc2652a1310360022c6bcc32244b031</sys_update_name>
         <sys_updated_by>frank.schuster</sys_updated_by>
-        <sys_updated_on>2017-01-13 20:27:58</sys_updated_on>
+        <sys_updated_on>2017-01-16 18:11:09</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
-	"chunksize": {
-		"value": 3,
-		"displayValue": "3"
-	},
-	"chunk_size": {
-		"value": 3,
-		"displayValue": "3"
-	},
 	"app_chunk_size": {
-		"value": 3,
-		"displayValue": "3"
+		"value": null,
+		"displayValue": ""
 	},
 	"service_chunk_size": {
 		"value": 4,
 		"displayValue": "4"
+	},
+	"experience_name": {
+		"value": "Resolve Real Security Threats Fast",
+		"displayValue": "Resolve Real Security Threats Fast"
+	},
+	"experience_short_handle": {
+		"value": "Resolve",
+		"displayValue": "Resolve"
+	},
+	"time_card_record_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"time_card_task_record": {
+		"value": "db0df476dbcc3a00adec7bfdae9619bc",
+		"displayValue": "INC0000000"
+	},
+	"banner_image": {
+		"value": "f83df6d813dc720022c6bcc32244b012",
+		"displayValue": "icon-lock.png"
 	}
 }]]></widget_parameters>
     </sp_instance>
