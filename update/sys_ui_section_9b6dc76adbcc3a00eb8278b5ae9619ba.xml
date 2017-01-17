@@ -4,100 +4,72 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-16 21:44:36</sys_created_on>
-            <sys_id>9467da2a1350360022c6bcc32244b0c2</sys_id>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2017-01-04 15:25:02</sys_created_on>
+            <sys_id>1f6dc76adbcc3a00eb8278b5ae9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_service" sys_domain="global" view="Default view">9b6dc76adbcc3a00eb8278b5ae9619ba</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2017-01-04 15:25:02</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>1</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-16 21:44:36</sys_created_on>
-            <sys_id>1867da2a1350360022c6bcc32244b0c2</sys_id>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2017-01-04 15:25:02</sys_created_on>
+            <sys_id>9f6dc76adbcc3a00eb8278b5ae9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_service" sys_domain="global" view="Default view">9b6dc76adbcc3a00eb8278b5ae9619ba</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2017-01-04 15:25:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>2</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-16 21:44:36</sys_created_on>
-            <sys_id>9867da2a1350360022c6bcc32244b0c2</sys_id>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2017-01-04 15:25:02</sys_created_on>
+            <sys_id>136dc76adbcc3a00eb8278b5ae9619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_service" sys_domain="global" view="Default view">9b6dc76adbcc3a00eb8278b5ae9619ba</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2017-01-04 15:25:02</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>image</element>
-            <position>3</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-16 21:44:36</sys_created_on>
-            <sys_id>1c67da2a1350360022c6bcc32244b0c2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_service" sys_domain="global" view="Default view">9b6dc76adbcc3a00eb8278b5ae9619ba</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>used</element>
-            <position>4</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-16 21:44:36</sys_created_on>
-            <sys_id>9c67da2a1350360022c6bcc32244b0c2</sys_id>
+            <position>3</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2017-01-04 15:25:02</sys_created_on>
+            <sys_id>936dc76adbcc3a00eb8278b5ae9619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_service" sys_domain="global" view="Default view">9b6dc76adbcc3a00eb8278b5ae9619ba</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2017-01-04 15:25:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-16 21:44:36</sys_created_on>
-            <sys_id>1067da2a1350360022c6bcc32244b0c3</sys_id>
+            <position>4</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2017-01-04 15:25:02</sys_created_on>
+            <sys_id>176dc76adbcc3a00eb8278b5ae9619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_service" sys_domain="global" view="Default view">9b6dc76adbcc3a00eb8278b5ae9619ba</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2017-01-04 15:25:02</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>link</element>
-            <position>6</position>
-            <sys_created_by>frank.schuster</sys_created_by>
-            <sys_created_on>2017-01-16 21:44:36</sys_created_on>
-            <sys_id>9067da2a1350360022c6bcc32244b0c3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_proto_refarc_service" sys_domain="global" view="Default view">9b6dc76adbcc3a00eb8278b5ae9619ba</sys_ui_section>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
@@ -111,7 +83,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9b6dc76adbcc3a00eb8278b5ae9619ba</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_snc_proto_refarc_service</sys_name>
             <sys_overrides/>
             <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
@@ -119,8 +91,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
             <sys_update_name>sys_ui_section_9b6dc76adbcc3a00eb8278b5ae9619ba</sys_update_name>
-            <sys_updated_by>frank.schuster</sys_updated_by>
-            <sys_updated_on>2017-01-16 21:44:36</sys_updated_on>
+            <sys_updated_by>ben.hollifield@snc</sys_updated_by>
+            <sys_updated_on>2017-01-09 21:22:39</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

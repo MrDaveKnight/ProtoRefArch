@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="RA Application Import">510393e2131cfe00f7f5bcc32244b08f</map>
+        <reference_value_field/>
+        <source_field>u_suite</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_imp_tmpl_x_snc_proto_refarc_application</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2017-01-17 02:05:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ac3317e2131cfe00f7f5bcc32244b03a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_suite</sys_name>
+        <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+        <sys_update_name>sys_transform_entry_ac3317e2131cfe00f7f5bcc32244b03a</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2017-01-17 02:05:56</sys_updated_on>
+        <target_field>suite</target_field>
+        <target_table>x_snc_proto_refarc_application</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

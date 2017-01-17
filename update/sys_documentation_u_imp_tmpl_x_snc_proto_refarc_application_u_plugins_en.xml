@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_plugins" label="Plugins" language="en" table="u_imp_tmpl_x_snc_proto_refarc_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_plugins</element>
+            <help/>
+            <hint/>
+            <label>Plugins</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_snc_proto_refarc_application</name>
+            <plural>Plugins</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2017-01-17 02:02:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0f429fa2131cfe00f7f5bcc32244b092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plugins</sys_name>
+            <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_snc_proto_refarc_application_u_plugins_en</sys_update_name>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2017-01-17 02:02:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

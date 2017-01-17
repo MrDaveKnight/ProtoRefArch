@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Reference Architecture">28accf2adbcc3a00eb8278b5ae961909</application>
+        <application display_value="System Import Sets">import_sets</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -12,35 +12,35 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Applications</mobile_title>
+        <mobile_title>Imp Tmpl X Snc Proto Refarc Application</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_proto_refarc_application</name>
-        <order/>
+        <name>u_imp_tmpl_x_snc_proto_refarc_application</name>
+        <order>1100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_snc_proto_refarc.application_user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>dave.knight</sys_created_by>
-        <sys_created_on>2017-01-04 15:21:34</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_created_on>2017-01-17 02:02:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e0accf2adbcc3a00eb8278b5ae96190c</sys_id>
+        <sys_id>9b429fa2131cfe00f7f5bcc32244b0a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Applications</sys_name>
+        <sys_name>Imp Tmpl X Snc Proto Refarc Application</sys_name>
         <sys_overrides/>
         <sys_package display_value="Prototype Reference Architecture" source="x_snc_proto_refarc">e24a43e6dbcc3a00eb8278b5ae961961</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Prototype Reference Architecture">e24a43e6dbcc3a00eb8278b5ae961961</sys_scope>
-        <sys_update_name>sys_app_module_e0accf2adbcc3a00eb8278b5ae96190c</sys_update_name>
+        <sys_update_name>sys_app_module_9b429fa2131cfe00f7f5bcc32244b0a9</sys_update_name>
         <sys_updated_by>dave.knight</sys_updated_by>
-        <sys_updated_on>2017-01-04 15:21:34</sys_updated_on>
+        <sys_updated_on>2017-01-17 02:02:01</sys_updated_on>
         <timeline_page/>
-        <title>Applications</title>
+        <title>Imp Tmpl X Snc Proto Refarc Application</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

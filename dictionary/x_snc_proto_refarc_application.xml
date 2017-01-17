@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Application" max_length="40" name="x_snc_proto_refarc_application" type="collection">
-        <element label="Image" max_length="32" name="image" reference="db_image" type="reference"/>
-        <element label="Link" max_length="1024" name="link" type="url"/>
+        <element label="Maint plugins" max_length="4000" name="maint_plugins" type="glide_list"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element label="Plugins" max_length="4000" name="plugins" type="glide_list"/>
+        <element label="Suite" max_length="40" name="suite" type="string"/>
         <element label="Used" max_length="40" name="used" type="boolean"/>
         <index name="index">
-            <element name="image"/>
+            <element name="name"/>
         </index>
     </element>
 </database>
